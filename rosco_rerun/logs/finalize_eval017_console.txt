@@ -1,0 +1,3 @@
+2026-10-25 14:24:35  eval_017 (re-run, InterpOrder=1): OK  J=9147.8 kW^2  wall=2.20 h  | vs InterpOrder=2 run over 0-80.69 s: max rel diff 3.28e-03 (channel B3RootMzr)
+2026-10-25 14:24:42  postprocess.py after eval_017 re-run: exit=0
+2026-10-25 14:24:42  extra_analysis.py after eval_017 re-run: exit=0

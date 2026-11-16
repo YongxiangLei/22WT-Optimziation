@@ -1,0 +1,62 @@
+﻿{
+ "rel_change_pct": {
+  "J": -20.189854168498915,
+  "power_rmse_kW": -10.663475648813673,
+  "genspd_rmse_rpm": -46.26708601477894,
+  "genspd_max_rpm": -3.7726214226340318,
+  "genspd_overspeed_pct": -44.737772981162145,
+  "pitch_std_deg": 16.090152466757647,
+  "pitch_travel_deg": 54.86891447014761,
+  "pitch_rate_rms_degps": 57.18995135737359,
+  "pitch_rate_max_degps": 62.59378776001578,
+  "DEL_TwrBsMyt_m4": 31.399632700371914,
+  "std_TwrBsMyt": 9.248793420001151,
+  "DEL_TwrBsMxt_m4": 28.104148477771446,
+  "std_TwrBsMxt": -3.0497374409991016
+ },
+ "J_block_change_pct": [
+  -29.754835013519344,
+  -26.298958425206873,
+  4.717206831587092,
+  -26.90700394156067
+ ],
+ "blocks_base": [
+  6587.1432091965635,
+  10748.016534347731,
+  8020.9273822831665,
+  10602.674337606979
+ ],
+ "blocks_best": [
+  4627.149615195883,
+  7921.400134445261,
+  8399.291116716868,
+  7749.812335676227
+ ],
+ "fail": {
+  "t_end": 80.7,
+  "genspd_max_rpm": 10.344747349262862,
+  "pitch_range_deg": [
+   0.0,
+   20.70158131115469
+  ],
+  "omega_pc": [
+   0.11395846902356352,
+   0.11499940675095177,
+   0.26499341844906765
+  ],
+  "message": [
+   "order of magnitude. BeamDyn may not converge!",
+   "order of magnitude. BeamDyn may not converge!",
+   "order of magnitude. BeamDyn may not converge!",
+   "FAST_Solution:FAST_AdvanceStates:B3::BD_GA2:BD_DynamicSolutionGA2:Solution does not converge",
+   "\u0007 OpenFAST encountered an error at simulation time 80.704 of 300 seconds."
+  ]
+ },
+ "wind": {
+  "mean": 17.856088183513705,
+  "std": 1.4800092857882017,
+  "TI": 0.08288541535960127,
+  "min": 14.61043259324405,
+  "max": 22.77127408079043
+ }
+}

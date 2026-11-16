@@ -1,0 +1,33 @@
+\begin{table}[h]
+\centering\small
+\caption{Bayesian optimisation of the pitch-controller natural frequencies $\omega_{pc}^{(1)},\omega_{pc}^{(2)},\omega_{pc}^{(3)}$ (rad/s) at $U_{pc}=12,18,24$~m/s. $J$: generator-power MSE with respect to 22~MW over 100--300~s; RMSE $=\sqrt{J}$; $J_{\text{old}}$: the objective of the original run (last 0.1~s of the simulation), shown for comparison only. Evaluations 1--5 are random; 6--20 are proposed by the GP in three batches of five. Bold: lowest $J$. ``n.c.'': the OpenFAST structural solver (BeamDyn) did not converge, no result.}
+\label{tab:optimized_parameters}
+\begin{tabular}{llccccccc}
+\hline
+Eval. & Type & $\omega_{pc}^{(1)}$ & $\omega_{pc}^{(2)}$ & $\omega_{pc}^{(3)}$ & $J$ ($10^3$~kW$^2$) & RMSE (kW) & $J_{\text{old}}$ ($10^3$~kW$^2$) & Time (h) \\
+\hline
+Baseline & ROSCO default & 0.104 & 0.113 & 0.289 & 8.99 & 94.8 & 2.25 & 2.3 \\
+\hline
+1 & random & 0.137 & 0.195 & 0.393 & 7.82 & 88.4 & 0.264 & 2.3 \\
+2 & random & 0.160 & 0.116 & 0.162 & 8.11 & 90.1 & 0.819 & 2.3 \\
+3 & random & 0.106 & 0.187 & 0.340 & 7.61 & 87.2 & 7.43 & 2.3 \\
+4 & random & 0.171 & 0.102 & 0.488 & 8.37 & 91.5 & 0.147 & 2.3 \\
+5 & random & 0.183 & 0.121 & 0.173 & 8.34 & 91.3 & 26.9 & 2.3 \\
+6 & BO-1 & 0.149 & 0.200 & 0.325 & 7.92 & 89.0 & 0.584 & 2.0 \\
+7 & BO-1 & 0.199 & 0.177 & 0.327 & 7.73 & 87.9 & 0.989 & 2.0 \\
+8 & BO-1 & 0.100 & 0.136 & 0.346 & 8.77 & 93.6 & 0.191 & 2.0 \\
+9 & BO-1 & 0.118 & 0.152 & 0.471 & 7.68 & 87.6 & 13.4 & 2.0 \\
+10 & BO-1 & 0.100 & 0.185 & 0.291 & 8.02 & 89.5 & 32.7 & 2.0 \\
+11 & BO-2 & 0.161 & 0.153 & 0.350 & 8.02 & 89.6 & 19.3 & 2.0 \\
+12 & BO-2 & 0.120 & 0.196 & 0.341 & 7.37 & 85.9 & 0.988 & 2.0 \\
+13 & BO-2 & 0.100 & 0.193 & 0.359 & 7.91 & 88.9 & 24.5 & 2.0 \\
+14 & BO-2 & 0.122 & 0.106 & 0.398 & 8.83 & 94.0 & 6.28 & 2.0 \\
+15 & BO-2 & 0.135 & 0.103 & 0.157 & 8.97 & 94.7 & 4.71 & 2.0 \\
+16 & BO-3 & 0.135 & 0.189 & 0.356 & 7.73 & 87.9 & 0.365 & 2.0 \\
+17 & BO-3 & 0.114 & 0.115 & 0.265 & 9.15 & 95.6 & 0.372 & 2.2 \\
+\textbf{18} & \textbf{BO-3} & \textbf{0.113} & \textbf{0.200} & \textbf{0.322} & \textbf{7.17} & \textbf{84.7} & \textbf{4.42} & \textbf{2.0} \\
+19 & BO-3 & 0.124 & 0.185 & 0.454 & 7.43 & 86.2 & 1.40 & 2.0 \\
+20 & BO-3 & 0.120 & 0.197 & 0.342 & 7.38 & 85.9 & 1.04 & 2.0 \\
+\hline
+\end{tabular}
+\end{table}

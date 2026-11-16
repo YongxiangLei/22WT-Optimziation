@@ -1,0 +1,1 @@
+2026-10-25 14:27:53  sens_i1_baseline: OK  J=8989.2 kW^2 (InterpOrder=2 run baseline: 8989.2, change -0.00 %)  wall=2.26 h

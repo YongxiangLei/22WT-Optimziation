@@ -1,0 +1,42 @@
+# Large binary data that is not kept in git (see README.md, "Not in the repository")
+*.bts
+*.outb
+*.out
+*.wnd
+*.u
+*.v
+*.w
+*.exe
+*.dll
+*.chkp
+*.zip
+*.zst
+
+# Upstream model bundle of the earlier study, an older clone, and a generated copy of the paper folder
+/IEA-22-280-RWT-Monopile_Code/
+/gh/
+/BO_ROSCO_22MW_IEEE_Overleaf/
+
+# Local caches and process state
+__pycache__/
+*.pyc
+*.pid
+/rosco_rerun/_sys/
+/rosco_rerun/Microsoft/
+/ch6_check/tmp/
+
+# Manuscript, working notes, and manuscript-editing helpers (kept on the local disk only)
+/paper_ieee_draft/
+/paper_ieee_draft_preview.pdf
+/supp_experiments/STATUS.md
+/supp_experiments/MANUSCRIPT_UPDATED
+/supp_experiments/abstract_new.tex
+/supp_experiments/intro_new.tex
+/supp_experiments/conclusion_new.tex
+/supp_experiments/fig2_body.tex
+/supp_experiments/apply_*.py
+/supp_experiments/move_fig2.py
+/supp_experiments/polish_tste.py
+/supp_experiments/build_zip.ps1
+/supp_experiments/render_pdf.ps1
+/rosco_rerun/check_tex*.py

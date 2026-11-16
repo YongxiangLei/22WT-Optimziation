@@ -1,0 +1,151 @@
+﻿2026-11-13 07:43:44  starter: waiting for openfast.exe to be allowed (pid 31204, max 12 h)
+2026-11-13 07:57:15  starter stopped (its openfast test lacked environment activation); steps are run directly
+2026-11-13 08:09:39  queue started: 40 jobs, 14 workers, pid 31452
+2026-11-13 08:09:39  val_U14_s1_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U14_s1_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U14_s2_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U14_s2_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U14_s3_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s1_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s1_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U14_s3_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s2_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s2_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s3_default: started (TMax 700 s)
+2026-11-13 08:09:39  val_U18_s3_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U22_s1_opt: started (TMax 700 s)
+2026-11-13 08:09:39  val_U22_s1_default: started (TMax 700 s)
+2026-11-13 08:22:25  val_U14_s1_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U14_s1_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U14_s2_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U14_s2_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U14_s3_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s1_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U14_s3_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s1_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s2_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s2_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s3_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U18_s3_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U22_s1_default: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  val_U22_s1_opt: FAILED after 0.21 h: ['order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!', 'order of magnitude. BeamDyn may not converge!']
+2026-11-13 08:22:25  queue finished: {'OK': 0, 'FAILED': 14, 'SKIPPED': 26}
+2026-11-13 08:22:27  queue stopped after 12 min at the user's request (machine too loaded); restarting with 8 workers at BelowNormal priority
+2026-11-13 08:22:28  queue started: 40 jobs, 8 workers, pid 6096
+2026-11-13 08:22:28  val_U14_s1_default: started (TMax 700 s)
+2026-11-13 08:22:28  val_U14_s2_default: started (TMax 700 s)
+2026-11-13 08:22:28  val_U14_s1_opt: started (TMax 700 s)
+2026-11-13 08:22:28  val_U14_s2_opt: started (TMax 700 s)
+2026-11-13 08:22:28  val_U14_s3_default: started (TMax 700 s)
+2026-11-13 08:22:28  val_U14_s3_opt: started (TMax 700 s)
+2026-11-13 08:22:28  val_U18_s1_default: started (TMax 700 s)
+2026-11-13 08:22:28  val_U18_s1_opt: started (TMax 700 s)
+2026-11-13 08:24:47  shutdown watcher started (pid 29148): shuts down after DONE, at the latest 90 min later
+2026-11-13 15:16:39  val_U14_s3_opt: FAILED after 6.90 h: ['order of magnitude. BeamDyn may not converge!', 'FAST_Solution:FAST_AdvanceStates:B3::BD_GA2:BD_DynamicSolutionGA2:Solution does not converge', '\x07 OpenFAST encountered an error at simulation time 649.35 of 700 seconds.', 'Simulation error level: FATAL ERROR']
+2026-11-13 15:16:39  val_U18_s2_default: started (TMax 700 s)
+2026-11-13 15:31:18  val_U14_s1_default: OK  J=18144.5 kW^2  speed RMSE=0.270 rpm  wall=7.15 h
+2026-11-13 15:31:18  val_U18_s2_opt: started (TMax 700 s)
+2026-11-13 15:47:28  val_U14_s3_default: OK  J=42486.8 kW^2  speed RMSE=0.300 rpm  wall=7.42 h
+2026-11-13 15:47:28  val_U18_s3_default: started (TMax 700 s)
+2026-11-13 15:48:00  val_U14_s2_opt: OK  J=16268.5 kW^2  speed RMSE=0.212 rpm  wall=7.43 h
+2026-11-13 15:48:00  val_U18_s3_opt: started (TMax 700 s)
+2026-11-13 15:48:06  val_U14_s1_opt: OK  J=15612.8 kW^2  speed RMSE=0.222 rpm  wall=7.43 h
+2026-11-13 15:48:06  val_U22_s1_default: started (TMax 700 s)
+2026-11-13 15:48:32  val_U14_s2_default: OK  J=18679.8 kW^2  speed RMSE=0.259 rpm  wall=7.43 h
+2026-11-13 15:48:32  val_U22_s1_opt: started (TMax 700 s)
+2026-11-13 15:49:30  val_U18_s1_opt: OK  J=23948.2 kW^2  speed RMSE=0.153 rpm  wall=7.45 h
+2026-11-13 15:49:30  val_U22_s2_default: started (TMax 700 s)
+2026-11-13 15:49:39  val_U18_s1_default: OK  J=29475.5 kW^2  speed RMSE=0.257 rpm  wall=7.45 h
+2026-11-13 15:49:39  val_U22_s2_opt: started (TMax 700 s)
+2026-11-13 17:25:47  val_U22_s1_default: FAILED after 1.63 h: ['order of magnitude. BeamDyn may not converge!', 'FAST_Solution:FAST_AdvanceStates:B1::BD_GA2:BD_DynamicSolutionGA2:Solution does not converge', '\x07 OpenFAST encountered an error at simulation time 156.23 of 700 seconds.', 'Simulation error level: FATAL ERROR']
+2026-11-13 17:25:47  val_U22_s3_default: started (TMax 700 s)
+2026-11-13 22:36:45  val_U18_s2_default: OK  J=30730.0 kW^2  speed RMSE=0.260 rpm  wall=7.34 h
+2026-11-13 22:36:45  val_U22_s3_opt: started (TMax 700 s)
+2026-11-13 22:44:51  val_U18_s2_opt: OK  J=22412.5 kW^2  speed RMSE=0.158 rpm  wall=7.23 h
+2026-11-13 22:44:51  sweep_w2_0.100: started (TMax 300 s)
+2026-11-13 22:54:24  val_U22_s2_opt: OK  J=45569.3 kW^2  speed RMSE=0.204 rpm  wall=7.08 h
+2026-11-13 22:54:24  sweep_w2_0.150: started (TMax 300 s)
+2026-11-13 22:57:44  val_U22_s2_default: OK  J=47857.9 kW^2  speed RMSE=0.279 rpm  wall=7.14 h
+2026-11-13 22:57:44  sweep_w2_0.250: started (TMax 300 s)
+2026-11-13 22:59:14  val_U18_s3_default: OK  J=30417.5 kW^2  speed RMSE=0.303 rpm  wall=7.20 h
+2026-11-13 22:59:14  sweep_w2_0.300: started (TMax 300 s)
+2026-11-13 22:59:36  val_U18_s3_opt: OK  J=24111.7 kW^2  speed RMSE=0.175 rpm  wall=7.19 h
+2026-11-13 22:59:36  sweep_w2_0.350: started (TMax 300 s)
+2026-11-13 23:00:14  val_U22_s1_opt: OK  J=39205.4 kW^2  speed RMSE=0.186 rpm  wall=7.19 h
+2026-11-13 23:00:14  sweep_w2_0.400: started (TMax 300 s)
+2026-11-13 23:34:39  STOP written for the 8-worker queue (pid 6096): its 8 running simulations finish, the 16 not yet started are taken over by run_queue2.py on the idle cores
+2026-11-13 23:34:56  queue 2 started: 16 jobs, at most 16 OpenFAST processes in total, pid 31596
+2026-11-13 23:34:56  sweep_w2_0.500: started (TMax 300 s)
+2026-11-13 23:35:06  rand_006: started (TMax 300 s)
+2026-11-13 23:35:17  rand_007: started (TMax 300 s)
+2026-11-13 23:35:27  rand_008: started (TMax 300 s)
+2026-11-13 23:35:37  rand_009: started (TMax 300 s)
+2026-11-13 23:35:47  rand_010: started (TMax 300 s)
+2026-11-13 23:35:57  rand_011: started (TMax 300 s)
+2026-11-13 23:36:07  rand_012: started (TMax 300 s)
+2026-11-13 23:49:50  queue 2: STOP2 found, 8 jobs not started
+2026-11-13 23:50:46  shutdown watcher (pid 29148) stopped; replaced by finish_partial.ps1
+2026-11-13 23:50:46  finisher started (pid 9952): waits for queues 609631596, then saves the partial results and shuts down
+2026-11-13 23:50:47  finisher: running simulations finished; postprocess_supp.py exit=0; 14 runs with status OK; results in outputs\supp_summary.json
+2026-11-13 23:50:47  finisher: shutting down in 5 min
+2026-11-13 23:50:59  finisher was started with a wrongly parsed pid list and scheduled a shutdown at once; shutdown aborted (shutdown /a), simulations not affected
+2026-11-13 23:51:11  finisher started (pid 13912): waits for queues 6096, 31596, then saves the partial results and shuts down
+2026-11-13 23:54:26  sweep_w2_0.250: FAILED after 0.95 h: ['order of magnitude. BeamDyn may not converge!', 'FAST_Solution:FAST_AdvanceStates:B3::BD_GA2:BD_DynamicSolutionGA2:Solution does not converge', '\x07 OpenFAST encountered an error at simulation time 122.61 of 300 seconds.', 'Simulation error level: FATAL ERROR']
+2026-11-14 00:06:24  val_U22_s3_default: OK  J=46058.4 kW^2  speed RMSE=0.280 rpm  wall=6.68 h
+2026-11-14 00:13:08  finisher (pid 13912) stopped: the user decided to run all remaining simulations tonight
+2026-11-14 00:15:21  takeover queue (pid 7864) started: 10 jobs, at most 16 OpenFAST processes in total
+2026-11-14 00:15:21  sweep_w2_0.240: started (TMax 300 s)
+2026-11-14 00:15:31  sweep_w2_0.260: started (TMax 300 s)
+2026-11-14 00:16:20  shutdown watcher started (pid 29876): shuts down after DONE, at the latest 90 min later
+2026-11-14 01:00:48  sweep_w2_0.100: OK  J=9562.1 kW^2  speed RMSE=0.233 rpm  wall=2.27 h
+2026-11-14 01:00:50  rand_013: started (TMax 300 s)
+2026-11-14 01:10:44  sweep_w2_0.150: OK  J=7975.6 kW^2  speed RMSE=0.156 rpm  wall=2.27 h
+2026-11-14 01:11:02  rand_014: started (TMax 300 s)
+2026-11-14 01:15:50  sweep_w2_0.300: OK  J=2140836.8 kW^2  speed RMSE=1.032 rpm  wall=2.28 h
+2026-11-14 01:16:13  rand_015: started (TMax 300 s)
+2026-11-14 01:16:21  sweep_w2_0.350: OK  J=3214366.6 kW^2  speed RMSE=1.264 rpm  wall=2.28 h
+2026-11-14 01:16:23  rand_016: started (TMax 300 s)
+2026-11-14 01:17:08  sweep_w2_0.400: OK  J=4585954.7 kW^2  speed RMSE=1.343 rpm  wall=2.28 h
+2026-11-14 01:17:33  rand_017: started (TMax 300 s)
+2026-11-14 01:52:48  rand_006: OK  J=8251.9 kW^2  speed RMSE=0.179 rpm  wall=2.29 h
+2026-11-14 01:52:49  rand_018: started (TMax 300 s)
+2026-11-14 01:52:51  sweep_w2_0.500: OK  J=8632525.4 kW^2  speed RMSE=1.481 rpm  wall=2.30 h
+2026-11-14 01:52:59  rand_007: OK  J=8911.1 kW^2  speed RMSE=0.180 rpm  wall=2.30 h
+2026-11-14 01:53:00  rand_019: started (TMax 300 s)
+2026-11-14 01:53:00  rand_008: OK  J=8370.0 kW^2  speed RMSE=0.182 rpm  wall=2.29 h
+2026-11-14 01:53:10  rand_020: started (TMax 300 s)
+2026-11-14 01:53:17  rand_009: OK  J=7882.5 kW^2  speed RMSE=0.126 rpm  wall=2.29 h
+2026-11-14 01:53:18  rand_010: OK  J=7955.8 kW^2  speed RMSE=0.143 rpm  wall=2.29 h
+2026-11-14 01:53:31  rand_011: OK  J=8265.4 kW^2  speed RMSE=0.198 rpm  wall=2.29 h
+2026-11-14 01:53:36  rand_012: OK  J=8473.1 kW^2  speed RMSE=0.110 rpm  wall=2.29 h
+2026-11-14 02:29:14  sweep_w2_0.240: OK  J=10929.8 kW^2  speed RMSE=0.097 rpm  wall=2.23 h
+2026-11-14 02:29:28  sweep_w2_0.260: OK  J=681131.9 kW^2  speed RMSE=0.553 rpm  wall=2.23 h
+2026-11-14 03:11:43  rand_013: OK  J=8214.4 kW^2  speed RMSE=0.212 rpm  wall=2.18 h
+2026-11-14 03:21:24  rand_014: OK  J=9566.4 kW^2  speed RMSE=0.207 rpm  wall=2.17 h
+2026-11-14 03:25:56  rand_015: OK  J=7697.4 kW^2  speed RMSE=0.120 rpm  wall=2.16 h
+2026-11-14 03:26:30  rand_016: OK  J=8009.8 kW^2  speed RMSE=0.174 rpm  wall=2.17 h
+2026-11-14 03:27:46  rand_017: OK  J=8940.5 kW^2  speed RMSE=0.194 rpm  wall=2.17 h
+2026-11-14 03:46:40  val_U22_s3_opt: OK  J=39459.4 kW^2  speed RMSE=0.201 rpm  wall=5.17 h
+2026-11-14 03:46:40  queue finished: {'OK': 21, 'FAILED': 3, 'SKIPPED': 16}
+2026-11-14 03:46:50  queue finished (both queues): {'OK': 34, 'FAILED': 3, 'MISSING': 3}
+2026-11-14 03:57:34  rand_018: OK  J=8117.8 kW^2  speed RMSE=0.113 rpm  wall=2.08 h
+2026-11-14 03:57:42  rand_019: OK  J=8104.7 kW^2  speed RMSE=0.116 rpm  wall=2.08 h
+2026-11-14 03:57:54  rand_020: OK  J=9670.0 kW^2  speed RMSE=0.222 rpm  wall=2.08 h
+2026-11-14 03:57:54  queue finished (both queues): {'OK': 39, 'FAILED': 3, 'MISSING': 0}
+2026-11-14 03:57:55  postprocess_supp.py: exit=0
+2026-11-14 03:58:23  shutdown watcher: DONE found; waiting up to 90 min for MANUSCRIPT_UPDATED
+2026-11-14 04:02:15  E1-E3 written into main.tex (Sections IV-H to IV-J), compiled, zip and preview rebuilt; MANUSCRIPT_UPDATED written
+2026-11-14 04:02:23  shutdown watcher: shutting down in 5 min (manuscript updated: True)
+2026-11-14 10:13:31  val_U22_s1_default__r2: started ({'InterpOrder': '2', 'NumCrctn': '0'})
+2026-11-14 10:13:33  val_U22_s1_default__c1: started ({'InterpOrder': '1', 'NumCrctn': '1'})
+2026-11-14 10:13:35  val_U14_s3_opt__r2: started ({'InterpOrder': '2', 'NumCrctn': '0'})
+2026-11-14 10:13:37  val_U14_s3_opt__c1: started ({'InterpOrder': '1', 'NumCrctn': '1'})
+2026-11-14 10:13:39  sweep_w2_0.250__r2: started ({'InterpOrder': '2', 'NumCrctn': '0'})
+2026-11-14 10:13:42  sweep_w2_0.250__c1: started ({'InterpOrder': '1', 'NumCrctn': '1'})
+2026-11-14 12:39:16  sweep_w2_0.250__r2: OK  J=65103.7 kW^2  speed RMSE=0.154 rpm  wall=2.43 h
+2026-11-14 12:39:46  sweep_w2_0.250__c1: terminated (quadratic-interpolation repeat finished)
+2026-11-14 15:28:49  val_U14_s3_opt__r2: OK  J=18157.8 kW^2  speed RMSE=0.237 rpm  wall=5.25 h
+2026-11-14 15:29:19  val_U14_s3_opt__c1: terminated (quadratic-interpolation repeat finished)
+2026-11-14 15:29:49  val_U22_s1_default__r2: OK  J=42368.6 kW^2  speed RMSE=0.253 rpm  wall=5.27 h
+2026-11-14 15:30:19  val_U22_s1_default__c1: terminated (quadratic-interpolation repeat finished)
+2026-11-14 15:30:19  rerun finished: {'val_U22_s1_default__r2': 'OK', 'val_U22_s1_default__c1': 'TERMINATED', 'val_U14_s3_opt__r2': 'OK', 'val_U14_s3_opt__c1': 'TERMINATED', 'sweep_w2_0.250__r2': 'OK', 'sweep_w2_0.250__c1': 'TERMINATED'}

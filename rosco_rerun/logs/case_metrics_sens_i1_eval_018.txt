@@ -1,0 +1,1 @@
+2026-10-25 14:24:50  sens_i1_eval_018: OK  J=7174.3 kW^2 (InterpOrder=2 run eval_018: 7174.3, change +0.00 %)  wall=2.21 h

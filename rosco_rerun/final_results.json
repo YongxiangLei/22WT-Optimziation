@@ -1,0 +1,62 @@
+{
+ "baseline": {
+  "tag": "baseline",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "returncode": 0,
+  "wall_s": 8191.484830379486,
+  "finished": "2026-10-19T00:55:49.362749",
+  "J_power_mse_kW2": 8989.24546590194,
+  "power_rmse_kW": 94.81163149056101,
+  "power_mean_kW": 22007.091798574344,
+  "power_std_kW": 94.54603037083521,
+  "power_min_kW": 21720.517692109624,
+  "power_max_kW": 22302.74068782475,
+  "genspd_mse_rpm2": 0.04445141515441903,
+  "genspd_max_rpm": 7.711374023750746,
+  "pitch_mean_deg": 14.015833463551306,
+  "pitch_std_deg": 0.9661511599283036,
+  "pitch_travel_deg": 15.788902768136165,
+  "twrbsmyt_std_kNm": 21947.815450909395,
+  "wind_mean_ms": 17.856088183513705,
+  "wind_std_ms": 1.4800092857882017,
+  "t_end_s": 300.0,
+  "J_old_last0p1s_kW2": 2253.6777353302045,
+  "status": "OK",
+  "kind": "baseline"
+ },
+ "best": {
+  "tag": "eval_018",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "returncode": 0,
+  "wall_s": 7111.183720111847,
+  "finished": "2026-10-19T06:56:20.220410",
+  "J_power_mse_kW2": 7174.329915487938,
+  "power_rmse_kW": 84.70141625432208,
+  "power_mean_kW": 22003.94836184881,
+  "power_std_kW": 84.60933963930223,
+  "power_min_kW": 21745.088210693637,
+  "power_max_kW": 22277.899946047568,
+  "genspd_mse_rpm2": 0.012834128358620049,
+  "genspd_max_rpm": 7.42045307535129,
+  "pitch_mean_deg": 14.036934857817059,
+  "pitch_std_deg": 1.1216063546201152,
+  "pitch_travel_deg": 24.452102323759565,
+  "twrbsmyt_std_kNm": 23977.7235621671,
+  "wind_mean_ms": 17.856088183513705,
+  "wind_std_ms": 1.4800092857882017,
+  "t_end_s": 300.0,
+  "J_old_last0p1s_kW2": 4416.924782822518,
+  "status": "OK",
+  "kind": "bo",
+  "round": 3
+ },
+ "n_evals": 20
+}

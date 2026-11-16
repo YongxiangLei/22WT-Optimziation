@@ -1,0 +1,49 @@
+2026-10-18 21:53:13  start: rosco toolbox + bayes_opt 3.3.0, J window (100.0, 300.0), init=5, n_iter=15, batch=5, seed=42, bounds={'omega_pc1': (0.1, 0.2), 'omega_pc2': (0.1, 0.2), 'omega_pc3': (0.1, 0.5)}
+2026-10-18 21:53:16  phase 1: baseline=[0.104, 0.1127, 0.2892]; eval_001=[0.1375, 0.1951, 0.3928]; eval_002=[0.1599, 0.1156, 0.1624]; eval_003=[0.1058, 0.1866, 0.3404]; eval_004=[0.1708, 0.1021, 0.488]; eval_005=[0.1832, 0.1212, 0.1727]
+2026-10-18 21:55:15  PAUSED by pause.ps1: 5 evaluation(s) complete; running ones will restart on resume
+2026-10-18 21:56:04  NOTE: previous PAUSED line over-counted; the 5 metrics.json written while stopping were FAILED (killed) and have been deleted
+2026-10-18 21:56:06  PAUSED by pause.ps1: 0 evaluation(s) complete; running ones will restart on resume
+2026-10-18 22:39:08  RESUMED by resume.ps1
+2026-10-18 22:39:15  start: rosco toolbox + bayes_opt 3.3.0, J window (100.0, 300.0), init=5, n_iter=15, batch=5, seed=42, bounds={'omega_pc1': (0.1, 0.2), 'omega_pc2': (0.1, 0.2), 'omega_pc3': (0.1, 0.5)}
+2026-10-18 22:39:17  phase 1: baseline=[0.104, 0.1127, 0.2892]; eval_001=[0.1375, 0.1951, 0.3928]; eval_002=[0.1599, 0.1156, 0.1624]; eval_003=[0.1058, 0.1866, 0.3404]; eval_004=[0.1708, 0.1021, 0.488]; eval_005=[0.1832, 0.1212, 0.1727]
+2026-10-18 23:37:55  PAUSED (Suspend, verified=True) by pause.ps1: 0 evaluation(s) complete; running ones at ~51%
+2026-10-18 23:40:23  RESUMED (thawed suspended processes, ok=True) by resume.ps1
+2026-10-19 00:55:57  baseline: OK  J=8989.2 kW^2  wall=2.28 h
+2026-10-19 00:55:57  eval_001: OK  J=7816.2 kW^2  wall=2.28 h
+2026-10-19 00:55:57  eval_002: OK  J=8111.7 kW^2  wall=2.27 h
+2026-10-19 00:55:57  eval_003: OK  J=7611.8 kW^2  wall=2.28 h
+2026-10-19 00:55:57  eval_004: OK  J=8367.0 kW^2  wall=2.28 h
+2026-10-19 00:55:57  eval_005: OK  J=8342.6 kW^2  wall=2.27 h
+2026-10-19 00:55:59  round 1: eval_006=[0.1485, 0.2, 0.325]; eval_007=[0.1993, 0.177, 0.3271]; eval_008=[0.1, 0.1359, 0.3459]; eval_009=[0.1177, 0.1517, 0.4708]; eval_010=[0.1, 0.1852, 0.2907]
+2026-10-19 02:57:00  eval_006: OK  J=7915.4 kW^2  wall=2.01 h
+2026-10-19 02:57:00  eval_007: OK  J=7726.8 kW^2  wall=2.01 h
+2026-10-19 02:57:00  eval_008: OK  J=8765.2 kW^2  wall=2.02 h
+2026-10-19 02:57:00  eval_009: OK  J=7679.8 kW^2  wall=2.01 h
+2026-10-19 02:57:00  eval_010: OK  J=8016.5 kW^2  wall=2.01 h
+2026-10-19 02:57:02  round 2: eval_011=[0.1609, 0.1535, 0.3497]; eval_012=[0.1199, 0.1959, 0.341]; eval_013=[0.1, 0.1934, 0.3594]; eval_014=[0.1224, 0.1064, 0.3977]; eval_015=[0.1352, 0.1031, 0.1568]
+2026-10-19 04:57:46  eval_011: OK  J=8020.4 kW^2  wall=2.01 h
+2026-10-19 04:57:46  eval_012: OK  J=7370.5 kW^2  wall=2.01 h
+2026-10-19 04:57:46  eval_013: OK  J=7905.5 kW^2  wall=2.01 h
+2026-10-19 04:57:46  eval_014: OK  J=8829.6 kW^2  wall=2.01 h
+2026-10-19 04:57:46  eval_015: OK  J=8969.2 kW^2  wall=2.01 h
+2026-10-19 04:57:49  round 3: eval_016=[0.1347, 0.1887, 0.3563]; eval_017=[0.114, 0.115, 0.265]; eval_018=[0.1132, 0.2, 0.3216]; eval_019=[0.1242, 0.1847, 0.4535]; eval_020=[0.12, 0.1965, 0.3419]
+2026-10-19 06:56:32  eval_016: OK  J=7732.6 kW^2  wall=1.98 h
+2026-10-19 06:56:32  eval_017: FAILED  J=nan kW^2  wall=0.54 h
+2026-10-19 06:56:32  eval_018: OK  J=7174.3 kW^2  wall=1.98 h
+2026-10-19 06:56:32  eval_019: OK  J=7432.3 kW^2  wall=1.98 h
+2026-10-19 06:56:32  eval_020: OK  J=7379.9 kW^2  wall=1.97 h
+2026-10-19 06:56:32  done. baseline J=8989.24546590194, best eval_018 J=7174.3 omega_pc=[0.1132, 0.2, 0.3216]
+2026-10-25 10:40:00  eval_017 re-run started (BeamDyn NRMax 10 -> 30, load_retries -> 50; pid 21852)
+2026-10-25 11:10:34  eval_017 (re-run, NRMax=30): FAILED again: []
+2026-10-25 11:20:40  eval_017 re-run with NRMax=30/load_retries=50 failed at the same step (t=80.704 s); all 71 channels identical to the first attempt up to 80.69 s. Starting screening of numerical fixes A (DT=1e-4), B (NumCrctn=1), C (InterpOrder=1), TMax 90 s.
+2026-10-25 11:58:55  eval_017 screening case C_interp1 (TMax 90 s): PASSED 90 s, wall 2295 s
+2026-10-25 12:12:19  eval_017 full re-run started (InterpOrder 2 -> 1, NRMax 30, load_retries 50; pid 23536)
+2026-10-25 12:12:19  sens_i1_baseline started (InterpOrder=1 sensitivity run of baseline)
+2026-10-25 12:12:19  sens_i1_eval_018 started (InterpOrder=1 sensitivity run of eval_018)
+2026-10-25 12:40:02  eval_017 screening case B_numcrctn1 (TMax 90 s): PASSED 90 s, wall 4762 s
+2026-10-25 12:40:29  eval_017 screening case A_dt1e-4 (TMax 90 s): PASSED 90 s, wall 4789 s
+2026-10-25 14:24:35  eval_017 (re-run, InterpOrder=1): OK  J=9147.8 kW^2  wall=2.20 h  | vs InterpOrder=2 run over 0-80.69 s: max rel diff 3.28e-03 (channel B3RootMzr)
+2026-10-25 14:24:42  postprocess.py after eval_017 re-run: exit=0
+2026-10-25 14:24:42  extra_analysis.py after eval_017 re-run: exit=0
+2026-10-25 14:24:50  sens_i1_eval_018: OK  J=7174.3 kW^2 (InterpOrder=2 run eval_018: 7174.3, change +0.00 %)  wall=2.21 h
+2026-10-25 14:27:53  sens_i1_baseline: OK  J=8989.2 kW^2 (InterpOrder=2 run baseline: 8989.2, change -0.00 %)  wall=2.26 h

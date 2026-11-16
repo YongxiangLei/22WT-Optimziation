@@ -1,0 +1,17 @@
+{
+ "tag": "val_U18_s2_default",
+ "group": "E2_validation",
+ "omega_pc": [
+  0.1039601890550169,
+  0.11266788743371176,
+  0.289233848967533
+ ],
+ "tmax": 700.0,
+ "wind": "U18_s2",
+ "U": 18,
+ "seed": 2,
+ "controller": "default",
+ "pitch0_deg": 15.649982631080599,
+ "turbsim_seed": 1800207,
+ "wave_seed": 500018002
+}

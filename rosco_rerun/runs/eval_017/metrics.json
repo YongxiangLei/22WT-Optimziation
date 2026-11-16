@@ -1,0 +1,34 @@
+{
+ "tag": "eval_017",
+ "omega_pc": [
+  0.11395846902356352,
+  0.11499940675095177,
+  0.26499341844906765
+ ],
+ "returncode": 0,
+ "wall_s": 7934.8270946,
+ "finished": "2026-10-25T14:24:35.191402",
+ "note": "re-run with InterpOrder=1 (instead of 2) and BeamDyn NRMax=30, load_retries=50. Attempts with InterpOrder=2 failed at t=80.704 s (BeamDyn GA2 did not converge) with NRMax=10 and NRMax=30 (identical up to 80.69 s); archived in runs/eval_017_failed_NRMax10 and runs/eval_017_failed_NRMax30. Numerical sensitivity: runs/sens_i1_baseline, sens_i1_eval_018.",
+ "numerics": {
+  "InterpOrder": 1,
+  "NRMax": 30,
+  "load_retries": 50
+ },
+ "J_power_mse_kW2": 9147.750693994205,
+ "power_rmse_kW": 95.64387431505588,
+ "power_mean_kW": 22006.97180746923,
+ "power_std_kW": 95.38943649380785,
+ "power_min_kW": 21737.749463203996,
+ "power_max_kW": 22307.128684497126,
+ "genspd_mse_rpm2": 0.04155074518050263,
+ "genspd_max_rpm": 7.695381911789122,
+ "pitch_mean_deg": 14.015753635807284,
+ "pitch_std_deg": 0.9757245760111128,
+ "pitch_travel_deg": 16.069428251268064,
+ "twrbsmyt_std_kNm": 22122.598125554945,
+ "wind_mean_ms": 17.856088183513705,
+ "wind_std_ms": 1.4800092857882017,
+ "t_end_s": 300.0,
+ "J_old_last0p1s_kW2": 371.60188165805664,
+ "status": "OK"
+}

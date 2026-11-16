@@ -1,0 +1,4 @@
+rc = 0 | terminated normally: True
+    Reading a 29x29 grid (320 m wide, 10 m to 330 m above ground) with a characteristic wind speed
+    Processed 14400 time steps of 20-Hz grid-field data (period of 720 seconds).
+    Running ROSCO-v2.9.0

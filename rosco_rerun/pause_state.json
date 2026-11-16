@@ -1,0 +1,115 @@
+﻿{
+    "paused_at":  "2026-10-18T23:37:55",
+    "mode":  "Suspend",
+    "pause_verified":  true,
+    "approx_progress_of_running":  "51%",
+    "processes":  [
+                      {
+                          "pid":  15180,
+                          "name":  "micromamba.exe",
+                          "cpu_s":  0,
+                          "cmd":  "\"D:\\software\\micromamba\\micromamba.exe\" run -p D:\\software\\micromamba\\envs\\rosco-env python -u bo_rerun.py run --n-iter 15 --batch 5"
+                      },
+                      {
+                          "pid":  30792,
+                          "name":  "python.exe",
+                          "cpu_s":  6,
+                          "cmd":  "python  -u bo_rerun.py run --n-iter 15 --batch 5"
+                      },
+                      {
+                          "pid":  31180,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3386,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      },
+                      {
+                          "pid":  18120,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3386,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      },
+                      {
+                          "pid":  14712,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3386,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      },
+                      {
+                          "pid":  29392,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3385,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      },
+                      {
+                          "pid":  24776,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3391,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      },
+                      {
+                          "pid":  28880,
+                          "name":  "openfast.exe",
+                          "cpu_s":  3385,
+                          "cmd":  "D:\\software\\micromamba\\envs\\rosco-env\\Library\\bin\\openfast.exe IEA-22-280-RWT-Monopile.fst"
+                      }
+                  ],
+    "runs":  [
+                 {
+                     "tag":  "baseline",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.1039601890550169,
+                                      0.11266788743371176,
+                                      0.289233848967533
+                                  ]
+                 },
+                 {
+                     "tag":  "eval_001",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.13745401188473627,
+                                      0.19507143064099164,
+                                      0.39279757672456206
+                                  ]
+                 },
+                 {
+                     "tag":  "eval_002",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.15986584841970367,
+                                      0.11560186404424366,
+                                      0.16239780813448107
+                                  ]
+                 },
+                 {
+                     "tag":  "eval_003",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.10580836121681995,
+                                      0.18661761457749354,
+                                      0.34044600469728353
+                                  ]
+                 },
+                 {
+                     "tag":  "eval_004",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.17080725777960454,
+                                      0.10205844942958026,
+                                      0.4879639408647978
+                                  ]
+                 },
+                 {
+                     "tag":  "eval_005",
+                     "completed":  false,
+                     "omega_pc":  [
+                                      0.18324426408004219,
+                                      0.12123391106782762,
+                                      0.17272998688284025
+                                  ]
+                 }
+             ],
+    "completed":  0,
+    "resume_command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\experiment\\rosco_rerun\\resume.ps1",
+    "note":  "Suspend mode keeps the frozen processes in RAM; after a reboot resume.ps1 restarts unfinished runs from t = 0."
+}

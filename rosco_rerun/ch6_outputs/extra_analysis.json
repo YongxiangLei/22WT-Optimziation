@@ -1,0 +1,102 @@
+{
+ "baseline": {
+  "tag": "baseline",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "J": 8989.24546590194,
+  "power_rmse_kW": 94.81163149056101,
+  "J_blocks_50s": [
+   6587.1432091965635,
+   10748.016534347731,
+   8020.9273822831665,
+   10602.674337606979
+  ],
+  "genspd_rmse_rpm": 0.21083504252002092,
+  "genspd_max_rpm": 7.711374023750746,
+  "genspd_overspeed_pct": 9.209343256655567,
+  "pitch_std_deg": 0.9661511599283036,
+  "pitch_travel_deg": 15.788902768136165,
+  "pitch_rate_rms_degps": 0.09817276055603875,
+  "pitch_rate_max_degps": 0.3056784397148187,
+  "DEL_TwrBsMyt_m4": 21118.848179718196,
+  "std_TwrBsMyt": 21947.815450909395,
+  "DEL_TwrBsMxt_m4": 16548.109730945842,
+  "std_TwrBsMxt": 12761.710744526583
+ },
+ "best": {
+  "tag": "eval_018",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "J": 7174.329915487938,
+  "power_rmse_kW": 84.70141625432208,
+  "J_blocks_50s": [
+   4627.149615195883,
+   7921.400134445261,
+   8399.291116716868,
+   7749.812335676227
+  ],
+  "genspd_rmse_rpm": 0.11328781204798709,
+  "genspd_max_rpm": 7.42045307535129,
+  "genspd_overspeed_pct": 5.089288177437035,
+  "pitch_std_deg": 1.1216063546201152,
+  "pitch_travel_deg": 24.452102323759565,
+  "pitch_rate_rms_degps": 0.15431771456422816,
+  "pitch_rate_max_degps": 0.49701415349804007,
+  "DEL_TwrBsMyt_m4": 27750.08893869889,
+  "std_TwrBsMyt": 23977.7235621671,
+  "DEL_TwrBsMxt_m4": 21198.815059995406,
+  "std_TwrBsMxt": 12372.51207383875
+ },
+ "rel_change_pct": {
+  "J": -20.189854168498915,
+  "power_rmse_kW": -10.663475648813673,
+  "genspd_rmse_rpm": -46.26708601477894,
+  "genspd_max_rpm": -3.7726214226340318,
+  "genspd_overspeed_pct": -44.737772981162145,
+  "pitch_std_deg": 16.090152466757647,
+  "pitch_travel_deg": 54.86891447014761,
+  "pitch_rate_rms_degps": 57.18995135737359,
+  "pitch_rate_max_degps": 62.59378776001578,
+  "DEL_TwrBsMyt_m4": 31.399632700371914,
+  "std_TwrBsMyt": 9.248793420001151,
+  "DEL_TwrBsMxt_m4": 28.104148477771446,
+  "std_TwrBsMxt": -3.0497374409991016
+ },
+ "J_block_change_pct": [
+  -29.754835013519344,
+  -26.298958425206873,
+  4.717206831587092,
+  -26.90700394156067
+ ],
+ "failed_eval_017": {
+  "t_end": 300.0,
+  "genspd_max_rpm": 10.34474708955585,
+  "pitch_range_deg": [
+   0.0,
+   20.7015781181194
+  ],
+  "omega_pc": [
+   0.11395846902356352,
+   0.11499940675095177,
+   0.26499341844906765
+  ],
+  "message": [
+   "order of magnitude. BeamDyn may not converge!",
+   "order of magnitude. BeamDyn may not converge!",
+   "order of magnitude. BeamDyn may not converge!"
+  ]
+ },
+ "wind_hub_100_300s": {
+  "mean": 17.856088183513705,
+  "std": 1.4800092857882017,
+  "TI": 0.08288541535960127,
+  "min": 14.61043259324405,
+  "max": 22.77127408079043
+ }
+}

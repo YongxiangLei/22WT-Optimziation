@@ -1,0 +1,42 @@
+{
+ "n_evals": 20,
+ "failed_evals": [],
+ "baseline": {
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "J_power_mse_kW2": 8989.24546590194,
+  "power_rmse_kW": 94.81163149056101,
+  "genspd_mse_rpm2": 0.04445141515441903,
+  "pitch_std_deg": 0.9661511599283036,
+  "pitch_travel_deg": 15.788902768136165,
+  "twrbsmyt_std_kNm": 21947.815450909395
+ },
+ "best": {
+  "tag": "eval_018",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "J_power_mse_kW2": 7174.329915487938,
+  "power_rmse_kW": 84.70141625432208,
+  "genspd_mse_rpm2": 0.012834128358620049,
+  "pitch_std_deg": 1.1216063546201152,
+  "pitch_travel_deg": 24.452102323759565,
+  "twrbsmyt_std_kNm": 23977.7235621671
+ },
+ "J_reduction_vs_baseline_pct": 20.189854168498915,
+ "rmse_reduction_vs_baseline_pct": 10.663475648813673,
+ "best_found_at_eval": 18,
+ "spearman_old_vs_new_J": -0.10676691729323308,
+ "evals_better_than_baseline": 19,
+ "Kp_sign_change_best": false,
+ "Kp_sign_change_baseline": false,
+ "wind_hub_mean_ms": 17.856088183513705,
+ "wind_hub_TI": 0.08288541535960127,
+ "total_cpu_h": 43.8676962414178
+}
+

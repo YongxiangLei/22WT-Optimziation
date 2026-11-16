@@ -1,0 +1,572 @@
+[
+ {
+  "tag": "sweep_w2_0.100",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.1,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.150",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.15,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.250",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.25,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.300",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.3,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.350",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.35,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.400",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.4,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.500",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.5,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.240",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.24,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "sweep_w2_0.260",
+  "group": "E1_sweep",
+  "omega_pc": [
+   0.11317919544621384,
+   0.26,
+   0.3216420253369157
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_006",
+  "group": "E3_random",
+  "omega_pc": [
+   0.11834045098534339,
+   0.1304242242959538,
+   0.3099025726528951
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_007",
+  "group": "E3_random",
+  "omega_pc": [
+   0.1431945018642116,
+   0.1291229140198042,
+   0.34474115788895177
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_008",
+  "group": "E3_random",
+  "omega_pc": [
+   0.11394938606520419,
+   0.12921446485352184,
+   0.2465447373174767
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_009",
+  "group": "E3_random",
+  "omega_pc": [
+   0.1456069984217036,
+   0.17851759613930138,
+   0.1798695128633439
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_010",
+  "group": "E3_random",
+  "omega_pc": [
+   0.15142344384136117,
+   0.15924145688620425,
+   0.1185801650879991
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_011",
+  "group": "E3_random",
+  "omega_pc": [
+   0.16075448519014385,
+   0.11705241236872915,
+   0.12602063719411183
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_012",
+  "group": "E3_random",
+  "omega_pc": [
+   0.19488855372533334,
+   0.19656320330745594,
+   0.4233589392465845
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_013",
+  "group": "E3_random",
+  "omega_pc": [
+   0.13046137691733709,
+   0.10976721140063839,
+   0.3736932106048628
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_014",
+  "group": "E3_random",
+  "omega_pc": [
+   0.14401524937396015,
+   0.11220382348447788,
+   0.29807076404450805
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_015",
+  "group": "E3_random",
+  "omega_pc": [
+   0.10343885211152185,
+   0.1909320402078782,
+   0.20351199264000677
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_016",
+  "group": "E3_random",
+  "omega_pc": [
+   0.16625222843539822,
+   0.1311711076089411,
+   0.3080272084711243
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_017",
+  "group": "E3_random",
+  "omega_pc": [
+   0.15467102793432796,
+   0.1184854455525527,
+   0.48783385110582345
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_018",
+  "group": "E3_random",
+  "omega_pc": [
+   0.17751328233611147,
+   0.19394989415641892,
+   0.4579309401710595
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_019",
+  "group": "E3_random",
+  "omega_pc": [
+   0.15978999788110854,
+   0.1921874235023117,
+   0.1353970008207678
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "rand_020",
+  "group": "E3_random",
+  "omega_pc": [
+   0.11959828624191453,
+   0.10452272889105381,
+   0.23013213230530574
+  ],
+  "tmax": 300.0,
+  "wind": "tuning"
+ },
+ {
+  "tag": "val_U14_s1_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s1",
+  "U": 14,
+  "seed": 1,
+  "controller": "default",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400107,
+  "wave_seed": 500014001
+ },
+ {
+  "tag": "val_U14_s1_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s1",
+  "U": 14,
+  "seed": 1,
+  "controller": "opt",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400107,
+  "wave_seed": 500014001
+ },
+ {
+  "tag": "val_U14_s2_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s2",
+  "U": 14,
+  "seed": 2,
+  "controller": "default",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400207,
+  "wave_seed": 500014002
+ },
+ {
+  "tag": "val_U14_s2_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s2",
+  "U": 14,
+  "seed": 2,
+  "controller": "opt",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400207,
+  "wave_seed": 500014002
+ },
+ {
+  "tag": "val_U14_s3_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s3",
+  "U": 14,
+  "seed": 3,
+  "controller": "default",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400307,
+  "wave_seed": 500014003
+ },
+ {
+  "tag": "val_U14_s3_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U14_s3",
+  "U": 14,
+  "seed": 3,
+  "controller": "opt",
+  "pitch0_deg": 9.774170258974081,
+  "turbsim_seed": 1400307,
+  "wave_seed": 500014003
+ },
+ {
+  "tag": "val_U18_s1_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s1",
+  "U": 18,
+  "seed": 1,
+  "controller": "default",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800107,
+  "wave_seed": 500018001
+ },
+ {
+  "tag": "val_U18_s1_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s1",
+  "U": 18,
+  "seed": 1,
+  "controller": "opt",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800107,
+  "wave_seed": 500018001
+ },
+ {
+  "tag": "val_U18_s2_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s2",
+  "U": 18,
+  "seed": 2,
+  "controller": "default",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800207,
+  "wave_seed": 500018002
+ },
+ {
+  "tag": "val_U18_s2_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s2",
+  "U": 18,
+  "seed": 2,
+  "controller": "opt",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800207,
+  "wave_seed": 500018002
+ },
+ {
+  "tag": "val_U18_s3_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s3",
+  "U": 18,
+  "seed": 3,
+  "controller": "default",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800307,
+  "wave_seed": 500018003
+ },
+ {
+  "tag": "val_U18_s3_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U18_s3",
+  "U": 18,
+  "seed": 3,
+  "controller": "opt",
+  "pitch0_deg": 15.649982631080599,
+  "turbsim_seed": 1800307,
+  "wave_seed": 500018003
+ },
+ {
+  "tag": "val_U22_s1_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s1",
+  "U": 22,
+  "seed": 1,
+  "controller": "default",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200107,
+  "wave_seed": 500022001
+ },
+ {
+  "tag": "val_U22_s1_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s1",
+  "U": 22,
+  "seed": 1,
+  "controller": "opt",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200107,
+  "wave_seed": 500022001
+ },
+ {
+  "tag": "val_U22_s2_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s2",
+  "U": 22,
+  "seed": 2,
+  "controller": "default",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200207,
+  "wave_seed": 500022002
+ },
+ {
+  "tag": "val_U22_s2_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s2",
+  "U": 22,
+  "seed": 2,
+  "controller": "opt",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200207,
+  "wave_seed": 500022002
+ },
+ {
+  "tag": "val_U22_s3_default",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.1039601890550169,
+   0.11266788743371176,
+   0.289233848967533
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s3",
+  "U": 22,
+  "seed": 3,
+  "controller": "default",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200307,
+  "wave_seed": 500022003
+ },
+ {
+  "tag": "val_U22_s3_opt",
+  "group": "E2_validation",
+  "omega_pc": [
+   0.11317919544621384,
+   0.2,
+   0.3216420253369157
+  ],
+  "tmax": 700.0,
+  "wind": "U22_s3",
+  "U": 22,
+  "seed": 3,
+  "controller": "opt",
+  "pitch0_deg": 20.175344940360283,
+  "turbsim_seed": 2200307,
+  "wave_seed": 500022003
+ }
+]

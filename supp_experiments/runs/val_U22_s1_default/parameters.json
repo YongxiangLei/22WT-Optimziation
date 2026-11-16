@@ -1,0 +1,17 @@
+{
+ "tag": "val_U22_s1_default",
+ "group": "E2_validation",
+ "omega_pc": [
+  0.1039601890550169,
+  0.11266788743371176,
+  0.289233848967533
+ ],
+ "tmax": 700.0,
+ "wind": "U22_s1",
+ "U": 22,
+ "seed": 1,
+ "controller": "default",
+ "pitch0_deg": 20.175344940360283,
+ "turbsim_seed": 2200107,
+ "wave_seed": 500022001
+}

@@ -1,0 +1,30 @@
+{
+ "tag": "val_U14_s3_opt",
+ "group": "E2_validation",
+ "omega_pc": [
+  0.11317919544621384,
+  0.2,
+  0.3216420253369157
+ ],
+ "tmax": 700.0,
+ "wind": "U14_s3",
+ "U": 14,
+ "seed": 3,
+ "controller": "opt",
+ "pitch0_deg": 9.774170258974081,
+ "turbsim_seed": 1400307,
+ "wave_seed": 500014003,
+ "returncode": 1,
+ "wall_s": 24851.168281793594,
+ "finished": "2026-11-13T15:16:39.304016",
+ "numerics": {
+  "InterpOrder": 1
+ },
+ "status": "FAILED",
+ "error": [
+  "order of magnitude. BeamDyn may not converge!",
+  "FAST_Solution:FAST_AdvanceStates:B3::BD_GA2:BD_DynamicSolutionGA2:Solution does not converge",
+  "\u0007 OpenFAST encountered an error at simulation time 649.35 of 700 seconds.",
+  "Simulation error level: FATAL ERROR"
+ ]
+}

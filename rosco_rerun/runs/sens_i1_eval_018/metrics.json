@@ -1,0 +1,29 @@
+{
+ "tag": "sens_i1_eval_018",
+ "reference_run": "eval_018",
+ "returncode": 0,
+ "wall_s": 7950.4574656,
+ "finished": "2026-10-25T14:24:50.796813",
+ "numerics": {
+  "InterpOrder": 1
+ },
+ "J_power_mse_kW2": 7174.34366665572,
+ "power_rmse_kW": 84.7014974286507,
+ "power_mean_kW": 22003.94791329754,
+ "power_std_kW": 84.60944183275782,
+ "power_min_kW": 21745.090065849447,
+ "power_max_kW": 22277.90184665956,
+ "genspd_mse_rpm2": 0.012834134917260737,
+ "genspd_max_rpm": 7.420453139542598,
+ "pitch_mean_deg": 14.036935187713606,
+ "pitch_std_deg": 1.1216060853549021,
+ "pitch_travel_deg": 24.45077299683063,
+ "twrbsmyt_std_kNm": 23977.70358646402,
+ "wind_mean_ms": 17.856088183513705,
+ "wind_std_ms": 1.4800092857882017,
+ "t_end_s": 300.0,
+ "J_old_last0p1s_kW2": 4416.677876827709,
+ "status": "OK",
+ "J_InterpOrder2_kW2": 7174.329915487938,
+ "J_rel_change_pct": 0.00019167180690267502
+}

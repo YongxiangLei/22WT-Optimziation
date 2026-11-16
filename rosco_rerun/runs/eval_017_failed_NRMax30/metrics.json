@@ -1,0 +1,14 @@
+{
+ "tag": "eval_017",
+ "omega_pc": [
+  0.11395846902356352,
+  0.11499940675095177,
+  0.26499341844906765
+ ],
+ "returncode": 1,
+ "wall_s": 1834.0053348,
+ "finished": "2026-10-25T11:10:34.488690",
+ "note": "re-run with BeamDyn NRMax=30, load_retries=50 (first run: NRMax=10 default, BeamDyn did not converge at t=80.704 s; archived in runs/eval_017_failed_NRMax10)",
+ "status": "FAILED",
+ "error": []
+}

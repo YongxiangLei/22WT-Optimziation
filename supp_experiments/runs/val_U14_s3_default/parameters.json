@@ -1,0 +1,17 @@
+{
+ "tag": "val_U14_s3_default",
+ "group": "E2_validation",
+ "omega_pc": [
+  0.1039601890550169,
+  0.11266788743371176,
+  0.289233848967533
+ ],
+ "tmax": 700.0,
+ "wind": "U14_s3",
+ "U": 14,
+ "seed": 3,
+ "controller": "default",
+ "pitch0_deg": 9.774170258974081,
+ "turbsim_seed": 1400307,
+ "wave_seed": 500014003
+}
